@@ -1,0 +1,38 @@
+.main-container {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.display-container{
+  min-height: 400px;
+  width: 500px;
+  padding:10px;
+  margin: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.buttons{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  padding: 5px 10px ;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.child{
+  width: 100px;
+  height: 40px;
+  background: green;
+  margin: 5px;
+}
